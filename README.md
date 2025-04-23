@@ -4,12 +4,12 @@
 
 ### 1. Sudomy Command (Subdomain Enumeration & Web Analysis)
 ```bash
-./sudomy -d target -dP -eP -rS -cF -pS -1tO -gW --httpx -al webanalyze
+./sudomy -d target -dP -eP -rS -cF -pS -tO -gW --httpx -aI webanalyze
 ```
 - `-d`: Target domain
-- `-dP`, `-eP`, `-rS`, `-cF`, `-pS`, `-1tO`, `-gW`: Subdomain and metadata collection
+- `-dP`, `-eP`, `-rS`, `-cF`, `-pS`, `-tO`, `-gW`: Subdomain and metadata collection
 - `--httpx`: Send results through httpx for probing
-- `-al webanalyze`: Analyze technologies used on web targets
+- `-aI webanalyze`: Analyze technologies used on web targets
 
 ---
 
