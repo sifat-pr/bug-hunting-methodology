@@ -27,6 +27,11 @@
 waybackurls target.com | grep -Ei 'user|api|token|@|redirect=|logout=|admin|info|number|address|firstname|lastname'
 ```
 
+`Try to find IDOR`
+```bash
+cat Passive_Collect_URL_Full.txt | egrep "id=|uid=|gid=|user_id=|user=|account=|number=|order=|no=|doc=|file=|key=|email=|group=|profile=|edit=|report="
+```
+
 - Add more keywords based on target.
 
 #### Open Redirect Testing:
