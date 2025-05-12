@@ -4,7 +4,7 @@
 
 ### 1. Sudomy Command (Subdomain Enumeration & Web Analysis)
 ```bash
-./sudomy -d target -dP -eP -rS -cF -pS -tO -gW --httpx -aI webanalyze
+sudomy -d target -dP -eP -rS -cF -pS -tO -gW --httpx -aI webanalyze
 ```
 - `-d`: Target domain
 - `-dP`, `-eP`, `-rS`, `-cF`, `-pS`, `-tO`, `-gW`: Subdomain and metadata collection
